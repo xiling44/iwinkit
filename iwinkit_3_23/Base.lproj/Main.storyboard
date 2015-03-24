@@ -80,7 +80,7 @@
                                 </state>
                                 <connections>
                                     <action selector="logInButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jjN-UH-boa"/>
-                                    <segue destination="FZ2-mi-c1H" kind="modal" identifier="HomePageDisplay" id="VAl-hD-U4e"/>
+                                    <segue destination="BTB-n8-nUE" kind="show" id="ysV-qW-AJO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -115,32 +115,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-242.5" y="312.5"/>
+            <point key="canvasLocation" x="-236.5" y="29.5"/>
         </scene>
-        <!--Home Table View Controller-->
-        <scene sceneID="aZ5-Dy-MnS">
+        <!--View Controller-->
+        <scene sceneID="ogr-p9-clO">
             <objects>
-                <viewController storyboardIdentifier="HomePageDisplay" id="FZ2-mi-c1H" customClass="HomeTableViewController" sceneMemberID="viewController">
+                <viewController id="BTB-n8-nUE" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="u8v-7L-7ER"/>
-                        <viewControllerLayoutGuide type="bottom" id="X0L-yi-jgB"/>
+                        <viewControllerLayoutGuide type="top" id="n92-3e-YAT"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qun-2K-6ES"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="F6d-tc-gEg">
+                    <view key="view" contentMode="scaleToFill" id="QXa-dt-uUL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.69999999999999973" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="light blue iphone 6 wallpaper 7841 - other iphone 6 wallpapers-f71686.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="K0N-l6-8e8">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="hBY-k4-JMO">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Bf7-ps-bkv"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cqb-ds-DZR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QZC-yF-upJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="268.5" y="64.5"/>
+            <point key="canvasLocation" x="233.5" y="21.5"/>
         </scene>
     </scenes>
     <resources>

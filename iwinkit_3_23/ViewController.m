@@ -52,7 +52,7 @@ NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ012345
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)logInButtonTapped:(id)sender {
-    [self performSegueWithIdentifier:@"HomePageDisplay" sender:self];
+    NSLog(@"nothing");
     
 }
 
