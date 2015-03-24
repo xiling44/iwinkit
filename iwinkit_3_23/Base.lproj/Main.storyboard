@@ -115,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-790.5" y="90.5"/>
+            <point key="canvasLocation" x="-242.5" y="312.5"/>
         </scene>
         <!--Home Table View Controller-->
         <scene sceneID="aZ5-Dy-MnS">
@@ -128,6 +128,11 @@
                     <view key="view" contentMode="scaleToFill" id="F6d-tc-gEg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.69999999999999973" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="light blue iphone 6 wallpaper 7841 - other iphone 6 wallpapers-f71686.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="K0N-l6-8e8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Bf7-ps-bkv"/>
@@ -135,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cqb-ds-DZR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-245.5" y="-5.5"/>
+            <point key="canvasLocation" x="268.5" y="64.5"/>
         </scene>
     </scenes>
     <resources>
